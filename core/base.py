@@ -26,7 +26,7 @@ class BaseDataset(ABC):
 
 class BaseModel(ABC):
     """
-    Abstract interface for all models.
+    Template for all models' classes.
     Models should implement forward inference.
     """
 
@@ -38,7 +38,7 @@ class BaseModel(ABC):
 
 class BaseTask(ABC):
     """
-    Defines what problem is being solved.
+    Template for all tasks' classes.
     Responsible for:
     - loss computation
     - metric computation
